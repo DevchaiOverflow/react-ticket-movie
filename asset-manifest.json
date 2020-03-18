@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-ticket-movie/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/react-ticket-movie/static/js/main.43789600.chunk.js",
-    "main.js.map": "/react-ticket-movie/static/js/main.43789600.chunk.js.map",
+    "main.js": "/react-ticket-movie/static/js/main.57472446.chunk.js",
+    "main.js.map": "/react-ticket-movie/static/js/main.57472446.chunk.js.map",
     "runtime-main.js": "/react-ticket-movie/static/js/runtime-main.5bd30bf8.js",
     "runtime-main.js.map": "/react-ticket-movie/static/js/runtime-main.5bd30bf8.js.map",
-    "static/js/2.957c400c.chunk.js": "/react-ticket-movie/static/js/2.957c400c.chunk.js",
-    "static/js/2.957c400c.chunk.js.map": "/react-ticket-movie/static/js/2.957c400c.chunk.js.map",
+    "static/js/2.10746900.chunk.js": "/react-ticket-movie/static/js/2.10746900.chunk.js",
+    "static/js/2.10746900.chunk.js.map": "/react-ticket-movie/static/js/2.10746900.chunk.js.map",
     "index.html": "/react-ticket-movie/index.html",
-    "precache-manifest.2718a6f996986ad473a18c250ed78812.js": "/react-ticket-movie/precache-manifest.2718a6f996986ad473a18c250ed78812.js",
+    "precache-manifest.dad45cd92a4d0ac424bb11a0ab93a65f.js": "/react-ticket-movie/precache-manifest.dad45cd92a4d0ac424bb11a0ab93a65f.js",
     "service-worker.js": "/react-ticket-movie/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/react-ticket-movie/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.957c400c.chunk.js.LICENSE.txt": "/react-ticket-movie/static/js/2.957c400c.chunk.js.LICENSE.txt"
+    "static/js/2.10746900.chunk.js.LICENSE.txt": "/react-ticket-movie/static/js/2.10746900.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5bd30bf8.js",
-    "static/js/2.957c400c.chunk.js",
+    "static/js/2.10746900.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.43789600.chunk.js"
+    "static/js/main.57472446.chunk.js"
   ]
 }
