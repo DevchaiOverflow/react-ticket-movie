@@ -18,7 +18,10 @@ const useStyles = makeStyles(theme => ({
 		'&:hover': {
 			cursor: 'pointer',
 			backgroundColor: 'gray'
-		}
+		},
+		[theme.breakpoints.down('sm')]: {
+			fontSize: '8px',
+		},
 	},
 	screen: {
 		color: '#ffff',
@@ -112,7 +115,7 @@ const App = () => {
 
 		for (let i = 0; i < group.length; i++) {
 			rowList.push(
-				<Grid container item xs={12} spacing={1} justify="center" alignItems="center">
+				<Grid container item xs={12} direction="row" justify="space-around" alignItems="flex-start" style={{ marginBottom: '20px' }}>
 					<FormSeat groupList={group[i]} />
 				</Grid>
 			)
@@ -131,11 +134,11 @@ const App = () => {
 						<FormScreen />
 					</Grid>
 
-					<Grid container item xs={12} style={{ marginTop: '50px' }} spacing={4}>
+					<Grid container item xs={12} style={{ marginTop: '50px' }}>
 						<RowSeat />
 					</Grid>
 
-					<Grid container item xs={12} style={{ marginTop: '50px' }} justify="center" alignItems="center">
+					<Grid container item xs={12} justify="center" alignItems="center">
 						<Button variant="contained" color="primary" onClick={handleClickTicket}>
 							Get Ticket
       					</Button>
